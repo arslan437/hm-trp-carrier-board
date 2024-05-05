@@ -1212,6 +1212,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 109.22 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d358284-5780-406f-b1ba-f8b50e10cd52")
+		(property "Reference" "J1"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rf Lib:WAFER-GH1.25-6PWB"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029381"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d73edfe3-e04f-46a1-896c-dbbd3aedd02d")
+		)
+		(pin "2"
+			(uuid "9c8d1478-fded-465e-88f4-fdb5585f6127")
+		)
+		(pin "4"
+			(uuid "22674795-f950-45a9-bba0-23c92c374071")
+		)
+		(pin "6"
+			(uuid "920e50a4-1c35-49c2-b776-62baa3f8699c")
+		)
+		(pin "1"
+			(uuid "8e2e1ae1-2cf8-4851-bef3-950394720660")
+		)
+		(pin "3"
+			(uuid "c225e80f-7180-4f61-aad8-6c7b375009a7")
+		)
+		(instances
+			(project "hm-trp carrier-board"
+				(path "/61ea3b9e-7721-4889-a605-8a8aa514713f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 102.87 0)
 		(unit 1)
@@ -1272,94 +1361,6 @@
 			(project "hm-trp carrier-board"
 				(path "/61ea3b9e-7721-4889-a605-8a8aa514713f"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 109.22 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed5e8b0c-642b-434d-a7ec-d801f9196aeb")
-		(property "Reference" "J1"
-			(at 109.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 109.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rf Lib:WAFER-GH1.25-6PWB"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3029381"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "127086a0-3909-4d9c-ae2f-0b38b45bb6a1")
-		)
-		(pin "2"
-			(uuid "d796cd7c-9d8f-4594-8858-bf30385282c1")
-		)
-		(pin "4"
-			(uuid "211bf753-a4eb-4a9f-893d-5fc17fad7b56")
-		)
-		(pin "6"
-			(uuid "f2fd634c-d7dd-48a3-a4e9-827e3a7b7216")
-		)
-		(pin "1"
-			(uuid "d54b87ca-298d-4a01-9e4c-2946de443d25")
-		)
-		(pin "3"
-			(uuid "d8008c8b-b608-4bf9-8a66-b9d0c93ee1f5")
-		)
-		(instances
-			(project "hm-trp carrier-board"
-				(path "/61ea3b9e-7721-4889-a605-8a8aa514713f"
-					(reference "J1")
 					(unit 1)
 				)
 			)
